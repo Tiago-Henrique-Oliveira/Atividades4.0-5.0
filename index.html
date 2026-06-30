@@ -46,7 +46,7 @@ Aprenda HTML, CSS e JavaScript com projetos práticos.
 
 <h2>Consultar Endereço</h2>
 
-<input type="text" id="cep" placeholder="Digite o CEP">
+<input type="text" id="cep" maxlength="8" placeholder="Digite o CEP">
 
 <button onclick="buscarCEP()">Buscar</button>
 
@@ -60,7 +60,10 @@ Aprenda HTML, CSS e JavaScript com projetos práticos.
 
 <form>
 
-<input type="text" placeholder="Nome" required>
+<form id="formContato">
+
+<label for="nome">Nome</label>
+<input id="nome" type="text" required>
 
 <input type="email" placeholder="Email" required>
 
@@ -79,6 +82,16 @@ Enviar
 </section>
 
 <script src="script.js"></script>
+
+<footer>
+
+<p>
+
+© 2026 Curso Dev+
+    
+</p>
+    
+</footer>
 
 </body>
 
