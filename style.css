@@ -3,7 +3,6 @@
 margin: 0;
 padding: 0;
 box-sizing: border-box;
-font-family: Arial, Helvetica, sans-serif;
 font-family: 'Poppins', sans-serif;
 
 }
@@ -21,6 +20,7 @@ background: #1565C0;
 color: white;
 text-align: center;
 padding: 60px;
+box-shadow: 0 4px 8px rgba(0,0,0,.2);
 
 }
 
@@ -44,6 +44,7 @@ border: none;
 padding: 15px 25px;
 cursor: pointer;
 border-radius: 5px;
+transition: .3s;
 
 }
 
@@ -67,6 +68,8 @@ textarea{
 width: 100%;
 padding: 10px;
 margin: 10px 0;
+border: 1px solid #ccc;
+border-radius: 5px;
 
 }
 
@@ -74,4 +77,18 @@ textarea{
 
 height: 120px;
 
+}
+
+@media (max-width: 768px){
+    header{
+        padding: 40px 20px;
+    }
+
+    header h1 {
+        font-size: 32px;
+    }
+
+    section {
+        padding: 20px;
+    }
 }
