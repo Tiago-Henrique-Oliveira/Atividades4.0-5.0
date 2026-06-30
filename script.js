@@ -18,5 +18,10 @@ ${dados.logradouro},
 ${dados.bairro},
 ${dados.localidade} - ${dados.uf}
 `;
+
+if (cep.length !==8) {
+    alert("Digite um CEP válido com 8 números.");
+    return;
+}
     
 }
